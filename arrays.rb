@@ -19,9 +19,9 @@ p house[3]
 #Will print "Allen"
 p names[2]
 
-if house[2] == true
+if house[1] == true
     p 'Close the garage door!' 
-else 
+elsif house [1] != true
     p 'The garage door is closed'
 end
 

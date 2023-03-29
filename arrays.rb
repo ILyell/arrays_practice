@@ -1,8 +1,7 @@
 age = [21,22,34,21]
 names = ["Mike", "John", "Allen", "Alex"]
 altitude = [1200.3, 23000, 1544.44, 1500]
-lights_on = true , door_open = false, garage_open = true, lights_off = false
-house = [lights_on, door_open, garage_open, lights_off]
+house = [true, false, true, true]
 
 #this will return and then remove 2 elements starting from the right of the array
 p age.pop(2)
@@ -14,5 +13,17 @@ p names.shift
 p names
 #This will add the variables included starting from the left side of the array.
 p names.unshift("Ian")
+
+#Will print true
+p house[3]
+#Will print "Allen"
+p names[2]
+
+if house[2] == true
+    p 'Close the garage door!' 
+else 
+    p 'The garage door is closed'
+end
+
 
 
